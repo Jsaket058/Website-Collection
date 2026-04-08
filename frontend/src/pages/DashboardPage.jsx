@@ -145,7 +145,7 @@ export default function DashboardPage() {
       }}>
         <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
           <span style={{ fontSize: 22, fontWeight: 800, color: "#4f46e5" }}>🔗</span>
-          <span style={{ fontSize: 20, fontWeight: 700, color: theme.text }}>LinkHub</span>
+          <span style={{ fontSize: 20, fontWeight: 700, color: theme.text }}>Website Collection</span>
         </div>
 
         <div style={{ display: "flex", alignItems: "center", gap: 14 }}>

@@ -50,7 +50,7 @@ export default function LoginPage() {
       <header style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "16px 28px" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
           <span style={{ fontSize: 22 }}>🔗</span>
-          <span style={{ fontSize: 18, fontWeight: 700, color: theme.text }}>LinkHub</span>
+          <span style={{ fontSize: 18, fontWeight: 700, color: theme.text }}>WebCollection</span>
         </div>
         <DarkToggle />
       </header>
@@ -73,7 +73,7 @@ export default function LoginPage() {
           <div style={{ fontSize: 48 }}>🔗</div>
           <div style={{ textAlign: "center" }}>
             <h1 style={{ margin: "0 0 8px", fontSize: 26, fontWeight: 800, color: theme.text }}>
-              Welcome to LinkHub
+              Website Collection
             </h1>
             <p style={{ margin: 0, color: theme.textSecondary, fontSize: 14 }}>
               Save and organise your favourite websites in one place.
@@ -81,7 +81,7 @@ export default function LoginPage() {
           </div>
           <GoogleLoginButton />
           <p style={{ margin: 0, fontSize: 12, color: theme.mutedText, textAlign: "center" }}>
-            © 2025 LinkHub. Simple. Organised. Secure.
+            © 2025 Website Collection. Simple. Organised. Secure.
           </p>
         </div>
       </div>
