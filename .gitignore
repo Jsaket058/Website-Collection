@@ -1,0 +1,21 @@
+# Python / Django
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+backend/db.sqlite3
+backend/.env
+
+# Node / React
+node_modules/
+frontend/build/
+frontend/.env
+
+# OS
+.DS_Store
+Thumbs.db
