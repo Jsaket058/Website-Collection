@@ -115,7 +115,7 @@ SIMPLE_JWT = {
 
 # ── CORS ─────────────────────────────────────────────────────────────────────
 _cors_origins = ["http://localhost:3000"]
-FRONTEND_URL = os.environ.get("FRONTEND_URL")
+FRONTEND_URL = os.environ.get("FRONTEND_URL", "").rstrip("/")
 if FRONTEND_URL:
     _cors_origins.append(FRONTEND_URL)
 CORS_ALLOWED_ORIGINS = _cors_origins
